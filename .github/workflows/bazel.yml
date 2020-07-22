@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup bazelisk for Bazel builds
-        uses: holvonix-open/setup-bazelisk@v0.2.0
+        uses: holvonix-open/setup-bazelisk@v0.3.0
       - run: bazel --version
       - run: bazelisk --version
       - run: echo 3.1.0 > .bazelversion
