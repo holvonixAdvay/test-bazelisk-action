@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    setps:
+    steps:
       - name: Setup bazelisk for Bazel builds
         uses: holvonix-open/setup-bazelisk@v0.1.0
       - run: bazel --version
