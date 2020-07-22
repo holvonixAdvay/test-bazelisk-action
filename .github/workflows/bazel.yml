@@ -15,6 +15,7 @@ jobs:
       - run: echo $PWD
       - run: ls -al
       - run: which bazelisk bazel
+      - run: export
       - run: bazelisk
       - run: bazel --version
       - run: bazelisk --version
